@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#game-board {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  justify-items: center;
+}
+
+.game-button {
+  width: 100px;
+  height: 100px;
+  font-size: 48px;
+}
+
+/* Adicione a classe "winning-cell" para estilizar as células da jogada vencedora em azul */
+.winning-cell {
+  color: blue;
+}
+
